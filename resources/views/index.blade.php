@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Cadastro de Investidores</title>
-    <link  rel="stylesheet" src="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" src="{{ asset('css/style.css') }}" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -17,32 +17,29 @@
         body {
             font-family: 'Nunito', sans-serif;
         }
-        form{
-          padding-left: 20%;
-          padding-right: 20%;
+
+        form {
+            padding-top:2%;
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        .title{
+            padding-top: 10px;
+            text-align: center;
         }
 
     </style>
 </head>
 
 <body class="antialiased">
+    <div class="title">
+        <h1>Cadastro de Investidores</h1>
+    </div>
     <form class="form" method="post" action="{{ route('investors.store') }}">
         @csrf
-        <div class="form-group">
-            <label>Id</label>
-            <input type="text" readonly="readonly" class="form-control" />
-        </div>
-        <div class="form-group">
-            <label for="name">Nome</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Alex Tromboghozy" />
-        </div>
-        <div class="form-group">
-            <label for="capital">Capital</label>
-            <input type="number" step="0.01" class="form-control" id="capital" name="capital" placeholder="R$ 1000,00"
-                onchange="verifyNumber();" onclick="verifyNumber();" onfocus="verifyNumber();" />
-            <label id="what" style="padding-left: 1%; color:red;"></label>
-        </div>
-        <div class="form-group">
+        @include('partials.form')
+        <div class="form-group col-md-3">
             <label for="period">Prazo</label>
             <select class="form-control" id="period" name="period">
                 <option value="Semanal">Uma semana</option>
@@ -50,7 +47,7 @@
                 <option value="Anual">Um ano</option>
             </select>
         </div>
-        <div class="form-group">
+        <div class="form-group col-md-3">
             <label for="toleration">Tolerância</label>
             <select class="form-control" id="toleration" name="toleration">
                 <option value="Conservador">Conservador</option>
