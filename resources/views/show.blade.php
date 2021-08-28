@@ -22,6 +22,7 @@
             padding-top:4%;
             padding-left: 20%;
             padding-right: 20%;
+            padding-bottom: 15%;
         }
 
         .title{
