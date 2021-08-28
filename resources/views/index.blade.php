@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Cadastro de Investidores</title>
+    <link  rel="stylesheet" src="{{ asset('css/style.css') }}" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -16,12 +17,16 @@
         body {
             font-family: 'Nunito', sans-serif;
         }
+        form{
+          padding-left: 20%;
+          padding-right: 20%;
+        }
 
     </style>
 </head>
 
 <body class="antialiased">
-    <form method="post" action="{{ route('investors.store') }}">
+    <form class="form" method="post" action="{{ route('investors.store') }}">
         @csrf
         <div class="form-group">
             <label>Id</label>
@@ -35,7 +40,7 @@
             <label for="capital">Capital</label>
             <input type="number" step="0.01" class="form-control" id="capital" name="capital" placeholder="R$ 1000,00"
                 onchange="verifyNumber();" onclick="verifyNumber();" onfocus="verifyNumber();" />
-            <label id="what" style="color:red;"></label>
+            <label id="what" style="padding-left: 1%; color:red;"></label>
         </div>
         <div class="form-group">
             <label for="period">Prazo</label>
