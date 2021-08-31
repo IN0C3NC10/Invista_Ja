@@ -23,7 +23,7 @@ class InvestorController extends Controller
     // ..função responsável pela listagem dos dados
     public function showall(){
         // ..busca os dados
-        $investors = Investor::get();
+        $investors = Investor::get()->sortBy('name');
         // ..direciona para a view junto a um atributo
         return view('table',compact('investors'));
     }
@@ -48,7 +48,7 @@ class InvestorController extends Controller
         
         $investor->update($request->all());
         return redirect()->route('investors.showall')
-            ->with('message', 'Editado com sucesso!');
+            ->with('message', $request->name.' editado(a) com sucesso!');
     }
 
     // ..função responsável pela exclusão de um dado específico

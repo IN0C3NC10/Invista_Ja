@@ -10,7 +10,7 @@
 </div>
 <div class="form-group col-md-4">
     <label for="capital">Capital</label>
-    <input value="{{ $investor->capital ?? '' }}" type="number" step="0.01" class="form-control" id="capital"
+    <input value="{{ $investor->capital ?? '' }}" type="number" step="1" class="form-control" id="capital"
         name="capital" placeholder="R$ 1000,00" onchange="verifyNumber();" onclick="verifyNumber();"
         onfocus="verifyNumber();" />
     <label id="what" style="padding-left: 1%; color:red;"></label>
