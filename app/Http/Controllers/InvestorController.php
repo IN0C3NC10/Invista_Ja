@@ -63,6 +63,6 @@ class InvestorController extends Controller
         $investor->delete();
         // ..redireciona por meio de uma rota
         return redirect()->route('investors.showall')
-            ->with('message', 'Apagou, some doidão!');
+            ->with('message', 'Cadê a Teté?!');
     }
 }

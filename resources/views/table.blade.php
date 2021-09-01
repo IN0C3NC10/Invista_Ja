@@ -15,6 +15,7 @@
     <style>
         body {
             font-family: 'Nunito', sans-serif;
+            padding-bottom: 5%;
         }
     </style>
 </head>
@@ -49,7 +50,9 @@
             @endforeach
         </tbody>
     </table>
-    <a href="{{ url('/') }}" class="btn btn-warning" style="margin-top:10px;">Voltar</a>
+    <div class="fixed-bottom">
+        <a href="{{ url('/') }}" class="btn btn-primary" style="margin-top:10px;">Cadastrar Novo</a>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

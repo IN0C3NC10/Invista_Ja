@@ -22,7 +22,7 @@
             padding-top:4%;
             padding-left: 20%;
             padding-right: 20%;
-            padding-bottom: 15%;
+            padding-bottom: 10%;
         }
 
         .title{
@@ -77,7 +77,7 @@
 
             </select>
         </div>
-        <button type="submit" class="btn btn-primary" style="margin-top:10px;">Alterar</button>
+        <button type="submit" class="btn btn-success" style="margin-top:10px;">Alterar</button>
         <a href="{{ url()->previous() }}" class="btn btn-warning" style="margin-top:10px;">Voltar</a>
     </form>
     <form class="text-right fixed-bottom" method="post" action="{{ route('investors.delete', $investor->id) }}">

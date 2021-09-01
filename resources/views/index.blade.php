@@ -22,6 +22,7 @@
             padding-top:2%;
             padding-left: 20%;
             padding-right: 20%;
+            padding-bottom: 10%;
         }
 
         .title{
@@ -55,8 +56,11 @@
                 <option value="Arrojado">Arrojado</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-success">Salvar</button>
     </form>
+    <div class="fixed-bottom">
+        <a href="{{ route('investors.showall') }}" class="btn btn-primary" style="margin-top:10px;">Listar</a>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
