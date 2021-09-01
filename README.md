@@ -4,7 +4,8 @@
 
 <!-- Shield -->
 <p>
-	<img src="https://img.shields.io/badge/Made%20with-Laravel-FF2D20?style=for-the-badge&logo=laravel" title="Feito com React Native" alt="feito-com-react-native"></img>
+	<img src="https://img.shields.io/badge/Made%20with-Laravel-FF2D20?style=for-the-badge&logo=laravel" title="Feito com Laravel" alt="made-with-laravel"></img>
+    <img src="https://img.shields.io/badge/Used-PostgreSQL-316192?style=for-the-badge&logo=postgresql" title="Usado PostgreSQL" alt="used-postgresql"></img>
 	<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" title="Licença MIT" alt="licença-MIT"></img>
     <img src="https://img.shields.io/badge/Status-Done-blue?style=for-the-badge" title="Status do Projeto" alt="project-status"></img>
 </p>
