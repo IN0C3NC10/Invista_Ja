@@ -1,64 +1,105 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<!-- Título&Descrição -->
+<h1 align="center" id="title">Invista Já</h1>
+<p align="center">Este é um website bastante simples focado apenas em um CRUD (Create, Read, Update, Delete), desenvolvido na faculdade para exercitar o conhecimento no mesmo. Foi elaborado com o framework Laravel, utilizado o tema de investimentos financeiros. Sendo assim, lembre-se que a abordagem ao tema foi muito superficial e rasa.</p>
 
+<!-- Estado da aplicação -->
+<h4 align="center"> 
+    Status: Finalizado! :heavy_check_mark:
+</h4>
+
+<!-- Menu -->
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+	<a href="#screenshots">Screenshots</a> • 
+	<a href="#tecnologias">Tecnologias</a> • 
+	<a href="#features">Features</a> •
+	<a href="#pre">Pré-Requisitos</a> • 
+	<a href="#run">Rodando a aplicação</a> • 
+	<a href="#autor">Autor</a>
+</p>
+<!-- Shield -->
+<p>
+	<img src="https://img.shields.io/badge/Made%20with-Laravel-FF2D20?style=for-the-badge&logo=laravel" title="Feito com React Native" alt="feito-com-react-native"></img>
+	<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" title="Licença MIT" alt="licença-MIT"></img>
 </p>
 
-## About Laravel
+<!-- Screenshots -->
+<h2 align="left" id="screenshots">Screenshots</h2>
+<p align="center">
+  <img height="400" alt="screenshot-register" title="Cadastro" src="./public/screenshots/screen1.png" />
+</p>
+<p align="center">
+  <img height="400" alt="screenshot-list" title="Listagem" src="./public/screenshots/screen2.png" />
+</p>
+<p align="center">
+  <img height="400" alt="screenshot-edit" title="Edição de Registro" src="./public/screenshots/screen3.png" />
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<!-- Features -->
+<h2 align="left" id="tecnologias">Tecnologias</h2>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- [PHP](https://www.php.net/)
+- [Laravel](https://laravel.com/)
+- [Composer](https://getcomposer.org/)
 
-## Learning Laravel
+<!-- Features -->
+<h2 align="left" id="features">Features</h2>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- [x] Cadastro do investidor;
+- [x] Listagem de investidores;
+- [x] Alteração do investidor;
+- [x] Exclusão do investidor;
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<!-- Pré-Requisitos -->
+<h2 align="left" id="pre">Pré-Requisitos</h2>
 
-## Laravel Sponsors
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[PHP](https://www.php.net/), [Laravel](https://laravel.com/) e o [Composer](https://getcomposer.org/). É bacana você possuir um editor para trabalhar com o código, fica a dica o [VSCode](https://code.visualstudio.com/).
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<!-- Executando o app -->
+<h2 align="left" id="run">Rodando a aplicação (web)</h2>
 
-### Premium Partners
+```bash
+# Clone este repositório
+# Exemplo em Https
+$ git clone https://github.com/IN0C3NC10/Invista_Ja.git
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+# Abra a pasta no seu VSCode ou editor de preferência
+# Altere as configurações no arquivo .env de acordo com o banco de dados de sua escolha
 
-## Contributing
+# Use o seguinte comando no CMD/PowerShell para criação das tabelas
+$ php artisan migrate
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# Depois, use o seguinte comando no CMD/PowerShell para criação das factories
+$ php artisan db:seed --class=DatabaseSeeder
 
-## Code of Conduct
+# Utilize o seguinte comando no CMD/PowerShell para iniciar o projeto
+$ php artisan serve
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+#Seja Feliz!
+```
+<!-- Autor -->
+<h2 align="left" id="autor">Autor</h2>
+<p>
+	<a href="https://github.com/IN0C3NC10">
+		<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/73368174?v=4" width="100px;" alt="autor-image"/>
+	</a>
+	<br />
+	Feito com ❤️ por <strong>Bruno Inocencio</strong>!
+</p>
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p align="left">
+  <!-- Outlook -->
+  <a href="mailto:bruno.inocencio@fatec.sp.gov.br" alt="Outlook" target="_blank">
+    <img height="30" src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" title="Outlook" alt="link-do-outlook" />
+  </a>
+  <!-- Linkedin -->
+  <a href="https://cutt.ly/nQlVjQV" alt="Linkedin" target="_blank">
+    <img height="30" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" title="Linkedin" alt="link-do-linkedin" />
+  </a>
+  <!-- GitHub -->
+  <a href="https://github.com/IN0C3NC10" alt="GitHub" target="_blank">
+    <img height="31" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" title="GitHub" alt="link-do-github" />
+  </a>
+</p>
