@@ -2,24 +2,11 @@
 <h1 align="center" id="title">Invista Já</h1>
 <p align="center">Este é um website bastante simples focado apenas em um CRUD (Create, Read, Update, Delete), desenvolvido na faculdade para exercitar o conhecimento no mesmo. Foi elaborado com o framework Laravel, utilizado o tema de investimentos financeiros. Sendo assim, lembre-se que a abordagem ao tema foi muito superficial e rasa.</p>
 
-<!-- Estado da aplicação -->
-<h4 align="center"> 
-    Status: Finalizado! :heavy_check_mark:
-</h4>
-
-<!-- Menu -->
-<p align="center">
-	<a href="#screenshots">Screenshots</a> • 
-	<a href="#tecnologias">Tecnologias</a> • 
-	<a href="#features">Features</a> •
-	<a href="#pre">Pré-Requisitos</a> • 
-	<a href="#run">Rodando a aplicação</a> • 
-	<a href="#autor">Autor</a>
-</p>
 <!-- Shield -->
 <p>
 	<img src="https://img.shields.io/badge/Made%20with-Laravel-FF2D20?style=for-the-badge&logo=laravel" title="Feito com React Native" alt="feito-com-react-native"></img>
 	<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" title="Licença MIT" alt="licença-MIT"></img>
+    <img src="https://img.shields.io/badge/Status-Done-blue?style=for-the-badge" title="Status do Projeto" alt="project-status"></img>
 </p>
 
 <!-- Screenshots -->
