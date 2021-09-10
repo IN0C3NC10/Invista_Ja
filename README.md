@@ -54,6 +54,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone https://github.com/IN0C3NC10/Invista_Ja.git
 
 # Abra a pasta no seu VSCode ou editor de preferência
+
+# Instale todas as dependências
+$ php composer.phar update
+
 # Altere as configurações no arquivo .env de acordo com o banco de dados de sua escolha
 
 # Use o seguinte comando no CMD/PowerShell para criação das tabelas
